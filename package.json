@@ -1,0 +1,23 @@
+{
+  "name": "@xpr/agent-sdk",
+  "version": "0.1.0",
+  "description": "SDK for building AI agents on XPR Network's trustless registry",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["xpr", "proton", "ai-agent", "blockchain", "agent-registry"],
+  "author": "charliebot87",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charliebot87/xpr-agent-sdk"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": ["dist", "README.md"]
+}
